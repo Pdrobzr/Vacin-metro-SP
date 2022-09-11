@@ -1,0 +1,25 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package tp;
+
+import java.io.Serializable;
+
+/**
+ *
+ * @author pedro
+ */
+public class DosesAplicadas implements Serializable {
+
+    public byte[] cidade;
+    public byte[] dose;
+    public int quantidade;
+
+    public DosesAplicadas(byte[] c, byte[] d, int q) {
+        cidade = c;
+        dose = d;
+        quantidade = q;
+    }
+
+}
